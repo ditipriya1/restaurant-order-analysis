@@ -8,7 +8,6 @@ order_details: individual order transactions with item quantity, price, date, ti
 
 menu_items: item names, categories, and pricing.
 
-All data is fictional and was created for educational purposes.
 
 🔍 Business Objective
 "How can we optimize our menu and operations based on ordering trends and customer preferences?"
