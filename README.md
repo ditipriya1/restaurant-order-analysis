@@ -1,44 +1,53 @@
-# restaurant-order-analysis
-This project analyzes over 12K orders from a fictional restaurant chain using SQL and Power BI. Key insights include top-performing menu items, peak ordering hours, and customer behavior trends. Built as part of my data analytics portfolio to demonstrate dashboarding, storytelling, and SQL skills.
+# 🍽️ Restaurant Order Analysis — SQL + Power BI
 
-🧩 Dataset Overview
+This project analyzes over **12K+ orders** from a fictional restaurant chain using **SQL** and **Power BI**.  
+Key insights include **top-performing menu items**, **peak ordering hours**, and **customer behavior trends**.  
+It was built as part of my **data analytics portfolio** to demonstrate my skills in **dashboarding, business storytelling, and SQL-based data exploration**.
+
+---
+
+## 📦 Dataset Overview
+
 The dataset simulates a mid-sized restaurant’s order history, containing:
-
-order_details: individual order transactions with item quantity, price, date, time, etc.
-
-menu_items: item names, categories, and pricing.
+- `order_details`: individual order transactions with item quantity, price, date, time, etc.
+- `menu_items`: item names, categories, and pricing.
 
 
-🔍 Business Objective
-"How can we optimize our menu and operations based on ordering trends and customer preferences?"
+---
 
-As a Business Analyst, the goal was to extract meaningful insights that would help a fictional restaurant chain (let’s call it UrbanBite) make informed decisions around:
+## 🎯 Business Objective
 
-Menu optimization
+> **"How can we optimize our menu and operations based on ordering trends and customer preferences?"**
 
-Staffing during peak hours
+As a Business Analyst, the goal was to extract meaningful insights that would help a fictional restaurant chain (let’s call it **UrbanBite**) make informed decisions around:
+- Menu optimization  
+- Staffing during peak hours  
+- Strategic promotions
 
-Strategic promotions
+---
 
-📊 Tools Used
-SQL (MySQL, DBeaver) — for querying, cleaning, and analyzing raw order data
+## 🛠 Tools Used
 
-Power BI — for creating a dynamic and insightful dashboard
+- **SQL** (MySQL + DBeaver) – querying, cleaning, and analysis  
+- **Power BI** – visualization and dashboarding  
+- **GitHub** – documentation and version control
 
-GitHub — for version control and documentation
+---
 
-📌 Key Insights
-🥗 Three items dominated orders, accounting for over 15% of total sales. (Generic item names used for respectful cultural presentation.)
+## 📊 Key Insights
 
-🕒 Over 50% of all orders occurred between 12 PM to 4 PM, indicating a strong lunch rush.
+- 🥗 **Three items dominated orders**, accounting for over **15%** of total sales  
+- 🕒 **50%+ of orders** occurred between **12 PM to 4 PM**, showing a strong lunch rush  
+- 📈 **Repeat order patterns** reveal loyal preferences for certain categories  
+- 💰 Price-volume analysis showed a bulk-ordering trend on low-cost items
 
-🧾 Item price and quantity patterns revealed high-volume, low-price strategies driving bulk orders.
+---
 
-📈 Certain item categories showed stronger repeat order rates, which could inform promotional strategies.
+## 💡 Business Recommendations
 
-📘 Business Recommendations
-Consider promoting best-selling items via loyalty or upsell campaigns.
+- Promote top-selling items through bundles or loyalty programs  
+- Optimize staffing and kitchen resources for lunch peak hours  
+- Launch combo offers around popular categories to increase average order value
 
-Align staffing and prep during peak hours (esp. lunch time).
+---
 
-Introduce combo offers for top ordered categories to increase average order value.
